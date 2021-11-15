@@ -1,0 +1,27 @@
+{
+  "name": "node-db-sqlite",
+  "version": "1.0.0",
+  "description": "A simple node CLI app to play with SQLite",
+  "bin": "index.js",
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajmasia/node-db-sqlite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajmasia/node-db-sqlite/issues"
+  },
+  "homepage": "https://github.com/ajmasia/node-db-sqlite#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "standard": "^16.0.4"
+  }
+}
